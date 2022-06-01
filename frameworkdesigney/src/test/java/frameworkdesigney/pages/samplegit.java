@@ -5,7 +5,7 @@ public class samplegit
 
 {
 	
-	public void samplegit()
+	public void samplegied()
 	{
 		System.out.println("git");
 	}
