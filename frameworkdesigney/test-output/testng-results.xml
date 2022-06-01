@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19102" started-at="2022-06-01T20:42:39 IST" finished-at="2022-06-01T20:42:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19102" started-at="2022-06-01T20:42:39 IST" finished-at="2022-06-01T20:42:58 IST">
+      <class name="frameworkdesigney.testcases.loginTestCRM">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e]" name="setupSuite" is-config="true" duration-ms="905" started-at="2022-06-01T20:42:38 IST" finished-at="2022-06-01T20:42:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setuppage()[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e]" name="setuppage" is-config="true" duration-ms="11120" started-at="2022-06-01T20:42:39 IST" finished-at="2022-06-01T20:42:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuppage -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e]" name="loginApp" duration-ms="6450" started-at="2022-06-01T20:42:50 IST" finished-at="2022-06-01T20:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="testdownmethod(org.testng.ITestResult)[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e]" name="testdownmethod" is-config="true" duration-ms="5" started-at="2022-06-01T20:42:56 IST" finished-at="2022-06-01T20:42:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=loginTestCRM.loginApp()[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdownmethod -->
+        <test-method status="PASS" signature="testdown()[pri:0, instance:frameworkdesigney.testcases.loginTestCRM@1990a65e]" name="testdown" is-config="true" duration-ms="1429" started-at="2022-06-01T20:42:56 IST" finished-at="2022-06-01T20:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdown -->
+      </class> <!-- frameworkdesigney.testcases.loginTestCRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

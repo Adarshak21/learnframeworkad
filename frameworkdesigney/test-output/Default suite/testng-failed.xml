@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="frameworkdesigney.testcases.loginTestCRM">
+        <methods>
+          <include name="setuppage"/>
+          <include name="loginApp"/>
+          <include name="setupSuite"/>
+          <include name="testdown"/>
+        </methods>
+      </class> <!-- frameworkdesigney.testcases.loginTestCRM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
